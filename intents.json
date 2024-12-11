@@ -1,0 +1,169 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey there",
+                "Good morning"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi! How can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "Bye! Feel free to reach out anytime."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks a lot",
+                "Much appreciated"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad to help!",
+                "Anytime!"
+            ]
+        },
+        {
+            "tag": "product_information",
+            "patterns": [
+                "Tell me about your services",
+                "What do you offer?",
+                "What are your products?"
+            ],
+            "responses": [
+                "We offer a wide range of products and services. What specifically are you looking for?",
+                "You can browse our products on our website."
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "What's the delivery status?",
+                "Track my order"
+            ],
+            "responses": [
+                "Please provide your order ID, and I can check the status for you.",
+                "Your order status can be found in the 'My Orders' section on our app."
+            ]
+        },
+        {
+            "tag": "returns",
+            "patterns": [
+                "How do I return a product?",
+                "What is your return policy?",
+                "Can I return this item?"
+            ],
+            "responses": [
+                "You can initiate a return through the 'My Orders' section on our website.",
+                "Our return policy allows returns within 30 days of purchase. Would you like more details?"
+            ]
+        },
+        {
+            "tag": "missing_products",
+            "patterns": [
+                "I am missing a product from my order",
+                "There is an item missing in my delivery"
+            ],
+            "responses": [
+                "We apologize for the inconvenience. Please share your order ID so we can assist further."
+            ]
+        },
+        {
+            "tag": "account_creation",
+            "patterns": [
+                "I want to create an account",
+                "How do I sign up?"
+            ],
+            "responses": [
+                "You can sign up by clicking the 'Sign Up' button on our homepage."
+            ]
+        },
+        {
+            "tag": "password_recovery",
+            "patterns": [
+                "I forgot my password",
+                "How can I reset my password?"
+            ],
+            "responses": [
+                "Click on 'Forgot Password' on the login page to reset your password."
+            ]
+        },
+        {
+            "tag": "payment_issues",
+            "patterns": [
+                "My payment failed",
+                "How can I check my bill?"
+            ],
+            "responses": [
+                "Please verify your payment details or try another method.",
+                "You can check your bill in the 'Billing' section of your account."
+            ]
+        },
+        {
+            "tag": "refunds",
+            "patterns": [
+                "I need a refund",
+                "How do I get a refund?"
+            ],
+            "responses": [
+                "Refunds can be initiated through the 'My Orders' section. Would you like me to guide you further?"
+            ]
+        },
+        {
+            "tag": "service_issues",
+            "patterns": [
+                "My account isn't working",
+                "The app is crashing"
+            ],
+            "responses": [
+                "We apologize for the trouble. Please try restarting the app or updating it to the latest version."
+            ]
+        },
+        {
+            "tag": "bug_reporting",
+            "patterns": [
+                "There's a problem with the app",
+                "How do I report a bug?"
+            ],
+            "responses": [
+                "You can report bugs through the 'Help' section in the app or by contacting our support team."
+            ]
+        },
+        {
+            "tag": "complaints",
+            "patterns": [
+                "I have a complaint",
+                "I want to report an issue"
+            ],
+            "responses": [
+                "We're sorry to hear that. Please provide details of the issue so we can address it promptly."
+            ]
+        },
+        {
+            "tag": "feedback",
+            "patterns": [
+                "I have feedback",
+                "Can I suggest something?"
+            ],
+            "responses": [
+                "We appreciate your feedback! Please share your thoughts."
+            ]
+        }
+    ]
+}
